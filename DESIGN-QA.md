@@ -28,3 +28,7 @@ An image-generated section concept was produced before implementation: `exec-95e
 
 ## Remaining review
 User visual review and business approval are outstanding. This builder did not publish or contact the business during this revision.
+
+
+### Whole-story skip regression
+A direct hero-to-contact jump was found to skip the IntersectionObserver boundary entirely, leaving an unread scene and pending photos. Scheduled frames now batch geometry for all three scenes and still-unseen reveal targets, so nonzero-size content jumped above the viewport completes even without an observer event. Hidden phone/desktop connector variants remain untouched. The exact below-to-above case is covered by the controller regression and rechecked through native browser anchor/End navigation.

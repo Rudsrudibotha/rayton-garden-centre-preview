@@ -92,18 +92,28 @@ function renderStory() {
   const scrollTop = window.scrollY;
   const pageRange = document.documentElement.scrollHeight - height;
   // Complete all geometry reads before writing path, image or progress styles.
-  const sceneBounds = [...activeScenes].map(element => [element, element.getBoundingClientRect()]);
+  // A jump can skip an entire scene without changing its intersection state.
+  // These three small geometry reads also catch that below-to-above jump.
+  const sceneBounds = scenes.map(element => [element, element.getBoundingClientRect()]);
+  const unseenBounds = revealTargets.filter(element => !seen.has(element))
+    .map(element => [element, element.getBoundingClientRect()]);
   const photoBounds = !reducedMotion.matches && desktop.matches
     ? [...activePhotos].map(photo => [photo, photo.frame.getBoundingClientRect()])
     : [];
-  const updates = sceneBounds.filter(([, rect]) => hasSize(rect) && rect.bottom > 0 && rect.top < height).map(([element, rect]) => {
-    const progress = reducedMotion.matches ? 1 : Math.max(sceneProgress.get(element) || 0, clamp((height * .85 - rect.top) / rect.height));
+  const updates = sceneBounds.filter(([element, rect]) => hasSize(rect) && (
+    (rect.bottom > 0 && rect.top < height) ||
+    (rect.bottom <= 0 && sceneProgress.get(element) !== 1)
+  )).map(([element, rect]) => {
+    const progress = reducedMotion.matches || rect.bottom <= 0 ? 1 : Math.max(sceneProgress.get(element) || 0, clamp((height * .85 - rect.top) / rect.height));
     const drift = reducedMotion.matches ? 0 : Math.max(-1, Math.min(1, (height / 2 - rect.top - rect.height / 2) / ((height + rect.height) / 2))) * 18;
     return { element, progress, drift };
   });
   const photoUpdates = photoBounds.map(([photo, rect]) => {
     const progress = clamp((height - rect.top) / (height + rect.height));
     return { photo, y: (.5 - progress) * 2 * Math.min(18, rect.height * .015) };
+  });
+  unseenBounds.forEach(([element, rect]) => {
+    if (hasSize(rect) && rect.top < height + 72) reveal(element);
   });
   progressBar.style.transform = `scaleX(${pageRange > 0 ? clamp(scrollTop / pageRange) : 0})`;
   updates.forEach(({ element, progress, drift }) => {
