@@ -1,0 +1,59 @@
+{
+  "assets": [
+    {
+      "contentType": "image/jpeg",
+      "id": "4ed379f407f0bb9d",
+      "kind": "image",
+      "name": "585715980_122172745250532575_1012864938762228468_n.jpg",
+      "path": "C:\\Users\\USER-PC\\AppData\\Local\\Temp/browser-use/assets/ffa699d2-cd1c-4625-89b9-5e3adfc52961/4ed379f407f0bb9d.jpg",
+      "url": "https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/585715980_122172745250532575_1012864938762228468_n.jpg?stp=dst-jpg_tt6&cstp=mx1754x584&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=VlGZOZQhNZkQ7kNvwEf5skr&_nc_oc=Adr6uQeQztMqcOM11T7mP9rwG8E90h8erQLgn-ZdqT9VIAyp8IbKTgEnYtfNXX6Rbq4&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=rRr1uDsY6jju9-BhZRh7AQ&_nc_ss=7b289&oh=00_AQIenN8zrr8oDDFLgnYwdp81_gB0NZzBE8lJskMbImmM3w&oe=6AADAF6E"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "4d2663b01ea2a66d",
+      "kind": "image",
+      "name": "586033135_122172774938532575_7996583198191298792_n.jpg",
+      "path": "C:\\Users\\USER-PC\\AppData\\Local\\Temp/browser-use/assets/ffa699d2-cd1c-4625-89b9-5e3adfc52961/4d2663b01ea2a66d.jpg",
+      "url": "https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-1/586033135_122172774938532575_7996583198191298792_n.jpg?stp=dst-jpg_tt6&cstp=mx1012x1011&ctp=s200x200&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=0uey-MaHuO8Q7kNvwF-twyR&_nc_oc=Adq8BmJyMxrnAXbBKxNcYuLoBoHgj_VxuB8vEepF0-O12TZoGUEDLchYXGIksUWUz30&_nc_zt=24&_nc_ht=scontent-jnb2-1.xx&_nc_gid=rRr1uDsY6jju9-BhZRh7AQ&_nc_ss=7b289&oh=00_AQIgctAkHWWeP0Ex6LKRt5W1dj0KceSxCtFzC85dmAjguQ&oe=6AAD988B"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "58de4b94d3321b2e",
+      "kind": "image",
+      "name": "700277779_122190280166532575_3965887735365584421_n.jpg",
+      "path": "C:\\Users\\USER-PC\\AppData\\Local\\Temp/browser-use/assets/ffa699d2-cd1c-4625-89b9-5e3adfc52961/58de4b94d3321b2e.jpg",
+      "url": "https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/700277779_122190280166532575_3965887735365584421_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1452&ctp=s1200x1452&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=87UQea8n9OkQ7kNvwEauyzw&_nc_oc=AdoteemDwk64iB6ojmL1G2IrJZaSswLKKEKJ7P7e0aCHSzER8cz7lq8g-Bfr1YwQtZE&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=HK9RcJqKT1fN3JjN32VKeA&_nc_ss=7b289&oh=00_AQKkogzfyOGqExcGIn5P-eAzrsrfjw6EToHWhW0UfQjKHw&oe=6AAD9E81"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "e5048d7eb46de464",
+      "kind": "image",
+      "name": "700119102_122190280214532575_4104724062812236201_n.jpg",
+      "path": "C:\\Users\\USER-PC\\AppData\\Local\\Temp/browser-use/assets/ffa699d2-cd1c-4625-89b9-5e3adfc52961/e5048d7eb46de464.jpg",
+      "url": "https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/700119102_122190280214532575_4104724062812236201_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1459&ctp=s1200x1459&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=BMgeRbkWqbkQ7kNvwFNYTW1&_nc_oc=AdqeoqmKNjI93wv0XKVLo-9cXJZYQlPz2K8-f88eA4d3E7BVlOFdEt-89GnSN9192C8&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=GxxJ73ZPQJ8lzfWNvJa1Hg&_nc_ss=7b289&oh=00_AQJbsXbrMkqzm4lGNqCQJo9DvY2gtoii6Yy8cFCAHA2_PA&oe=6AAD9D6A"
+    }
+  ],
+  "failures": [
+    {
+      "contentType": null,
+      "id": "31d6d17595b4c572",
+      "name": "586033135_122172774938532575_7996583198191298792_n.jpg",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at HX (<anonymous>:1:41)\n    at <anonymous>:1:354",
+      "url": "https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-1/586033135_122172774938532575_7996583198191298792_n.jpg?stp=dst-jpg_tt6&cstp=mx1012x1011&ctp=s200x200&_nc_cat=110&ccb=1-7&_nc_sid=f907e8&_nc_ohc=0uey-MaHuO8Q7kNvwF-twyR&_nc_oc=Adq8BmJyMxrnAXbBKxNcYuLoBoHgj_VxuB8vEepF0-O12TZoGUEDLchYXGIksUWUz30&_nc_zt=24&_nc_ht=scontent-jnb2-1.xx&_nc_gid=iHNej3KV5gF3DsTkU3Szeg&_nc_ss=7b289&oh=00_AQIepaLhrMWI30unekECbrpyCFaDY93DBnMEEm2VhxP0Ww&oe=6AAD988B"
+    },
+    {
+      "contentType": null,
+      "id": "1186bc4f456b86e5",
+      "name": "700277779_122190280166532575_3965887735365584421_n.jpg",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at HX (<anonymous>:1:41)\n    at <anonymous>:1:354",
+      "url": "https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/700277779_122190280166532575_3965887735365584421_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1452&ctp=s1200x1452&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=87UQea8n9OkQ7kNvwEauyzw&_nc_oc=AdoteemDwk64iB6ojmL1G2IrJZaSswLKKEKJ7P7e0aCHSzER8cz7lq8g-Bfr1YwQtZE&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=QNgaoBLjxSpa2xrC1s-rxQ&_nc_ss=7b289&oh=00_AQLAU6X7TBAkr4AdDXVWGmgFiEY-qfMto-JuPAh1Gl68_w&oe=6AAD9E81"
+    },
+    {
+      "contentType": null,
+      "id": "6f5c78487bcaf858",
+      "name": "700129845_122190280064532575_8312117923639207498_n.jpg",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at HX (<anonymous>:1:41)\n    at <anonymous>:1:354",
+      "url": "https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/700129845_122190280064532575_8312117923639207498_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1462&ctp=s1200x1462&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pAdjNaA3oC8Q7kNvwFWDA6l&_nc_oc=AdrdTIGfu3JXvN5Ikj7xYxXNscpIEHY8hpkPtJYlncAkxOo0NIb-Bh6csiE59wR6KHk&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=4ZlHLWZMuzGjILRv2zSdsA&_nc_ss=7b289&oh=00_AQK_ZAlea1z1qlF1qq0ryCdQ6ggvXy7I7BVA1Br-8VirvA&oe=6AADB010"
+    }
+  ]
+}
