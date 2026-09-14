@@ -1,27 +1,30 @@
-# Design and verification record
+# Connected photo journey — design and QA
 
-## Direction
-Forest, chartreuse and chalk, oversized lowercase sans serif, tilted original plant image, offset plant pair, large category title and three-photo nursery gallery.
+## Direction and reference
+Forest and chartreuse botanical composition: three staggered original plant posters linked by an original hand-drawn stem with leaves.
 
-Image-generated layout board: `exec-b7af2df6-8ad0-4960-b5f4-9b06e589f6d2.png` in the session generated_images directory. This is a layout reference only; it is not included as business imagery.
+The Adorable Bekkies Academy repository was inspected read-only as the user's storytelling benchmark. Reused ideas are continuous photo sequencing, asymmetric composition, meaningful captions, progressive connectors and once-only visibility. No school assets, code files or child-themed graphics were copied.
 
-## Visual comparison ledger
-| Area | Result |
+An image-generated section concept was produced before implementation: `exec-95e8956b-15cd-4a28-a9c8-1751e8e5cfe6.png` (session generated_images/01a09fa4-b649-7500-8e96-50097d4c56bf). It is a layout reference only and is not shipped as business imagery.
+
+## Comparison ledger
+| Area | Final result |
 |---|---|
-| Composition, palette and typography | Preserved from the selected board in distinct responsive HTML/CSS. |
-| Actual business imagery | Original promotional image text and branding retained. Actual Calathea, Plectranthus Lemon and Lime and chrysanthemum photos replace generated concept plant examples; no current-stock promises. |
-| Scroll motion | Desktop pinned scenes with restrained photo transforms; mobile becomes normal document flow. This is a photo-motion adaptation, not video. |
-| Contact | Existing verified contact or booking destinations used. No simulated submission. |
-| Factual copy | No fabricated prices, owner biography, reviews, guarantees or stock claims. |
-| Intentional deviations | Browser chrome and unsupported generated details omitted. Authentic social-photo aspect ratios and original text take precedence over concept imagery. |
+| Composition | Retains the distinct hero, palette and typography; replaces viewport blocks with the concept's staggered connected photo journey. |
+| Photographs | Actual downloaded business originals replace every generated example. Calathea Burle Marx, Plectranthus Lemon and Lime, and Chrysanthemum originals retain their published promotional text. No current-stock claim is made. The ornamental Plectranthus is not described as an edible herb. |
+| Connectors | Original inline SVG, decorative and hidden from assistive technology. Paths complete on fast jumps and never erase on reverse scroll. |
+| Copy | Editorial captions describe actual subjects. No invented process, owner history, prices, statistics or testimonials. |
+| Phone adaptation | Compact alternating photographs and growing caption rows with local connector segments; no horizontal overflow. |
+| Intentional departures | Generated logos, invented photographs, unsupported labels and decorative fake browser chrome were omitted. Original source aspect ratios and meaningful caption space take priority. |
 
-## Checks performed 14 September 2026
-- Browser visual review at 1280 × 720 and 390 × 844; saved hero screenshots inspected with view_image.
-- All desktop pinned stages fit the 720px viewport. No horizontal overflow at either checked width.
-- Mobile menu toggles, closes after section navigation and supports Escape. Photo dialog opens original image, closes with Escape and restores trigger focus.
-- HTML relative assets and anchor destinations, image dimensions/alt text, and JavaScript syntax checked. All passed.
-- No console errors or warnings seen in inspected browser views.
-- Reduced-motion CSS/JS fallback reviewed in source; operating-system reduced-motion preference was not toggled during browser QA.
+## Verification — 14 September 2026
+- Rendered in Chrome at 1280 × 720 and 390 × 844, including all photo chapters, section navigation and full-photo viewing.
+- Measured native forward and reverse scrolling: a 360px scroll moves the scene exactly 360px, without sticky dwell. Direct drift changes immediately; path progress preserves its maximum on reverse scroll.
+- Fast section jumps complete paths and reveal skipped images. Mobile photos have no scroll transform; connectors retain the staggered sequence.
+- Menu, next/previous photo controls, arrow-key navigation, Escape closing and focus restoration checked. No broken images or horizontal overflow in inspected views; no browser warnings/errors.
+- Eight lifecycle checks against each site's actual controller passed: initial off-screen state, zero-size hidden connector, monotonic reverse progress, fast-exit completion, focus reveal, desktop/phone resize and reduced-motion on/off memory.
+- Reduced motion was exercised in the controller test harness and checked in CSS; the operating-system preference was not changed during browser QA.
+- Saved browser screenshots were visually inspected. Session evidence is in outputs/story-journeys and work/services-journey-qa.json.
 
-## Remaining limits
-Awaiting the user's visual review and the business's approval. Current details and image rights require owner confirmation before final launch. Public-profile photos have finite original resolution. No client outreach, git push or deployment was performed by this builder.
+## Remaining review
+User visual review and business approval are outstanding. This builder did not publish or contact the business during this revision.

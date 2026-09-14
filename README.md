@@ -1,20 +1,22 @@
 # Rayton Garden Centre Bloemfontein — website concept
 
-Independent, responsive static website preview. Not yet approved by the business.
+Independent responsive static preview, awaiting business approval.
 
 ## Run locally
-Open `index.html`, or run `python -m http.server 8000` from this directory. No package install, build step, API key, database, analytics, remote font or CDN dependency is required.
+Open `index.html`, or run `python -m http.server 8000` from this directory. No package installation, build step, database, API key, analytics, remote fonts or CDN dependency is needed. All site assets and navigation paths are relative for GitHub Pages.
 
-## Deploy
-All asset and navigation paths are relative and ready for a GitHub Pages project site. Publish the repository root only when authorised. This folder has not been pushed or deployed by the builder.
+## The photo story
+Forest and chartreuse botanical composition: three staggered original plant posters linked by an original hand-drawn stem with leaves.
 
-## Included
-Semantic HTML, distinct brand styling, locally saved original business images, scroll-linked pinned desktop scenes, mobile layouts, reduced-motion fallback, keyboard navigation, image lightbox, working real-world contact links, noindex metadata and source documentation.
+The opening hero leads into a connected photographic journey in normal document flow. An original SVG connector draws as the story is read and remembers its furthest position. There are no pinned sections, artificial scroll holds or scroll smoothing. Desktop photographs receive only a few pixels of direct drift; phone photographs stay still within the naturally scrolling page. Short opacity entrances happen once, before a photograph enters view. Keyboard focus always reveals content immediately.
 
-## Limits before launch
-Owner approval is outstanding. Confirm imagery rights, business details and services before launch. No prices, invented reviews, statistics or stock promises are presented. External booking/contact links use existing services; no enquiry form pretends to submit. Remove noindex and the concept footer only after approval. Current photos have finite social-media resolution and some include original promotional text. See SOURCES.md and manifests.
+The layout reflows into a compact alternating photo-and-caption sequence on phones, with local connector segments. Live reduced-motion changes reveal all content and complete paths without movement. The full-photo viewer supports previous/next controls, arrow keys, Escape and focus restoration.
 
-## Design
-Visual design concept: forest/chartreuse botanical concept, 14 September 2026. The image-generated concept guides layout only. Only authentic downloaded business images are shipped. Documented deviations remove invented concept claims/labels, browser URL chrome, invented photographs and unsupported icons. The final approved design is subject to the user's review.
+## Content and launch limits
+Calathea Burle Marx, Plectranthus Lemon and Lime, and Chrysanthemum originals retain their published promotional text. No current-stock claim is made. The ornamental Plectranthus is not described as an edible herb.
 
-This is a photo-motion adaptation of the cinematic scrolling reference. It uses pinned scenes and subtle scroll-linked photo transforms; no moving footage or video is supplied.
+Business facts, contacts, existing booking links and photograph provenance are documented in `SOURCES.md` and `ASSETS.md`. No invented biography, process photographs, statistics, reviews, guarantees or prices are supplied. These are adaptations using original still photographs; no moving footage is supplied. Social media originals have finite resolution.
+
+Owner approval, image rights and current details need confirmation before final launch. Keep the noindex metadata and discreet concept footer until approved. Contact actions open existing services; no form pretends to submit. Publishing is handled separately by the project lead.
+
+See `DESIGN-QA.md` for the concept comparison and verification record.
